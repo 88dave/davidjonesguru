@@ -1,94 +1,31 @@
 <section data-ng-controller="HomeController">
 	<div class="jumbotron text-center">
+		<h3>Welcome!</h3>
 		<div class="row">
-			<div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-12">
-				<img alt="MEAN.JS" class="img-responsive text-center" src="modules/core/img/brand/logo.png" />
+			<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+				<img alt="David Jones" class="img-responsive" src="modules/about/img/linkedInImage.jpg" />
 			</div>
-		</div>
-		<br>
-		<div class="row">
-			<p class="lead">
-				Open-Source Full-Stack Solution For MEAN Applications
-			</p>
-		</div>
-		<div class="row">
-			<p>
-				<a class="btn btn-primary btn-lg" href="http://meanjs.org" target="_blank">Learn more</a>
-			</p>
+			<div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                                <p>
+                                	<a class="btn btn-info btn-block btn-lg" href="/#!/aboutme" target="_self">Learn more about me          </a>
+                        	</p>
+				<p>
+					<a class="btn btn-info btn-block btn-lg" href="/#!/aboutthiswebsite" target="_self">Learn more about this website</a>
+				</p>
+                        </div>
 		</div>
 	</div>
 	<div>
-		<h2>Congrats! You've configured and run the sample application.</h2>
-		<p>MEAN.JS is a web application boilerplate, which means you should start changing everything :-)</p>
-		<p>This sample application tracks users and articles.</p>
-		<ul>
-			<li>
-				Click
-				<em>Signup</em>
-				to get started.
-			</li>
-			<li>
-				Configure your app to work with your social accounts, by editing the
-				<em>/config/env/*.js</em>
-				files.
-			</li>
-			<li>
-				Edit your users module.
-			</li>
-			<li>
-				Add new CRUD modules.
-			</li>
-			<li>
-				Have fun...
-			</li>
-		</ul>
+		<h2>Blog</h2>
+		<p>This blog is under construction.  I'll add a blogging module to create my posts sometime in the next week or two.
+		<h3>Github</h3>
+		<p>Finished my initial project.  Working on a lesson now (not a submission, just lab work, essentially) called Project Sunshine.  The reviewer of Project0 thought I did an awesome job separating out my files into reusable styles, using styles.xml, and colors.xml, and basically avoiding any extra unnecessary work.  I'm glad to get the pat on the back because I put way more time into it than the two hours that were budgeted.  It's a wonderful thing though, because I learned a lot, and I bet I could do the same project now in just 30 minutes.</p>
+		<p>One of the things that I did to submit my work was establish a github account.  If you want to follow along with my nanodegree program, you can check out all of the code on github where my username is 88dave!</p>
+		 <p>David Jones, MCTS.  6/3/2015</p>
+		<h3>Android Nanodegree Project 0</h3>
+		<p>I signed up for the new android development nanodegree that google revealed at a conference the other day.  They are running it in partnership with Udacity.  Haven't yet decided whether to pay my money and stick around after the first week, but it seems fun and a potentially promising way to expand my horizons</p>
+		<p>Today I was working on Project 0, which is to build an android app that will eventually allow us to access our other apps, or some such.  Right now we're just building the buttons and having them toast when they are clicked.  So it is primarily a tool for students who have never used Android Studio to get started with it while also building a skeleton for something that will eventually be helpful in the class.</p>
+		<p>Fortunately, I DO have some experience with Android Studio, having worked partway through some of the official tutorial not long after the Studio was released.  I had also worked a little bit with android in the Eclipse IDE about a year ago.  So I didn't have too many surprises getting started with Android Studio.  I remembered that the "emulator" is so slow as to be almost entirely useless unless you change some HAXM settings.  However, it's better to just use a real android device if you have one.  By better, I mean, easier, faster, and more like what the app would actually do in real live use.</p>
+		<p>Where I struggled today was in the formatting of the buttons.  Evidently, the backgroundtint property does not work.  This is not good, because I went with the background property, and it makes my buttons look like ugly rectangles and not like buttons at all.  Googling definitely has me pointed in the right direction, something to do with gradients, but for now, I'm falling asleep, so I'll get back to it manana.</p>
+		<p>David Jones, MCTS.  5/31/2015</p>
 	</div>
-	<div class="row">
-		<div class="col-md-3">
-			<h2>
-				<strong>M</strong>ongoDB
-			</h2>
-			<p><a target="_blank" href="http://mongodb.org/">MongoDB</a> is a database. MongoDB's <a target="_blank" href="http://docs.mongodb.org/manual/">great manual</a> is the place to get started with NoSQL and MongoDB.</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
-				<strong>E</strong>xpress
-			</h2>
-			<p><a target="_blank" href="http://expressjs.com/"> Express</a> is an app server. Check out <a target="_blank" href="http://expressjs.com/guide.html">The Express Guide</a> or <a target="_blank" href="http://stackoverflow.com/questions/8144214/learning-express-for-node-js">StackOverflow</a> for more info.</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
-				<strong>A</strong>ngularJS
-			</h2>
-			<p>AngularJS is web app framework. <a target="_blank" href="http://angularjs.org/">Angular's website</a> offers a lot. The <a target="_blank" href="http://www.thinkster.io/">Thinkster Popular Guide</a> and <a target="_blank" href="https://egghead.io/">Egghead Videos</a> are great resources.</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
-				<strong>N</strong>ode.js
-			</h2>
-			<p><a target="_blank" href="http://nodejs.org/">Node.js</a> is a web server. Node's website and this <a target="_blank" href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js">stackOverflow thread</a> offer excellent starting points to get to grasps with node.</p>
-		</div>
-	</div>
-	<div class="well">
-		<h2>MEAN.JS Documentation</h2>
-		<p>
-			Once you're familiar with the foundation technology, check out the MEAN.JS Documentation:
-			<ul>
-				<li><a target="_blank" href="http://meanjs.org/docs.html">MEAN.JS Documentation</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/generator.html">Yeoman Generator</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/modules.html">Modules</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/changelog.html">Changelog</a>
-				</li>
-				<li><a target="_blank" href="http://meanjs.org/community.html">Community</a>
-				</li>
-				<li><a target="_blank" href="http://blog.meanjs.org">Blog</a>
-				</li>
-			</ul>
-		</p>
-	</div>
-	<br>Enjoy &amp; Keep Us Updated,
-	<br>The MEAN.JS Team.
-</section>
